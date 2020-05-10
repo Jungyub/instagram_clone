@@ -279,6 +279,7 @@ main {
   height: 200px;
   margin-top: 10px;
   background-color: white;
+  overflow: hidden;
 }
 
 .recommend_title {
