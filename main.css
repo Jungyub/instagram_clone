@@ -1,0 +1,335 @@
+
+.nav_container {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+}
+
+.nav_container_inner {
+  display: flex;
+  justify-content: space-between;
+  width: 950px;
+}
+
+.nav_first {
+  display: flex;
+  align-items: center;
+}
+
+.nav_item1 {
+  width: 20px;
+  margin: 20px 10px;
+}
+
+.nav_item2 {
+  width: 90px;
+  margin: 20px 10px;
+  border-left: 2px solid darkgray;
+  padding-left: 20px;
+}
+
+.nav_item3 {
+  width: 200px;
+  text-align: center;
+  background-color: rgb(243, 242, 242);
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid rgb(226, 225, 225);
+}
+
+.nav_item4 {
+  width: 20px;
+  margin: 20px 10px;
+}
+
+.nav_item5 {
+  width: 20px;
+  margin: 20px 10px;
+}
+
+.nav_item6 {
+  width: 20px;
+  margin: 20px 10px;
+}
+
+.nav_second {
+  display: flex;
+  align-items: center;
+}
+
+.nav_third {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  background-color: rgb(241, 241, 241);
+}
+
+.feeds {
+  width: 600px;
+  background-color: white;
+}
+
+.my_account {
+  display: flex;
+  border: 1px solid lightgray;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.my_account_inner {
+  display: flex;
+  align-items: center;
+}
+
+.profile_icon1 {
+  width: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.three_dot {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.main_img {
+  width: 100%;
+}
+
+.feeds_bottom {
+  border: 1px solid lightgray;
+  margin-top: -5px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.icons_inner {
+  display: flex;
+  align-items: center;
+}
+
+.icon1 {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.icon2 {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.icon3 {
+  width: 25px;
+  margin-right: 5px;
+}
+
+.icon4 {
+  width: 25px;
+}
+
+.like_num {
+  display: flex;
+  margin: 0 0 0 10px;
+}
+
+.img_like {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.see_more {
+  color: darkgray;
+  padding: 10px;
+}
+
+.reply1 {
+  margin-left: 10px;
+}
+
+.reply2 {
+  margin-left: 10px;
+}
+
+.moment_ago {
+  color: darkgray;
+  margin-bottom: 5px;
+}
+
+.text_icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon_heart {
+  width: 15px;
+  margin: 8px;
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  align-items: center;
+}
+
+.leave_comment {
+  padding: 10px;
+  font-size: 14px;
+  width: 550px;
+}
+
+.upload {
+  padding: 10px;
+  font-size: 14px;
+  color: blue;
+}
+
+.main_right {
+  margin-left: 20px;
+}
+
+.right_first {
+  display: flex;
+  align-items: center;
+}
+
+.profile_icon2 {
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.right_second {
+  border: 1px solid lightgray;
+  width: 300px;
+  height: 230px;
+  margin-top: 10px;
+  overflow: auto;
+  background-color: white;
+}
+
+.story_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.story_inner1 {
+  color: darkgray;
+}
+
+.story_contents {
+  margin: 0 15px;
+}
+
+/* 원형 프로필 이미지 */
+.img_circle1 {
+  width: 38px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid rgb(236, 69, 106);
+}
+
+.img_circle2 {
+  width: 38px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.content1 {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.content2 {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.content3 {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.content4 {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.right_third {
+  border: 1px solid lightgray;
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.recommend_title {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.recommend_inner1 {
+  color: darkgray;
+}
+
+.recommend_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.content_inner {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.recommend_text1 {
+  font-weight: bold;
+}
+
+.recommend_text2 {
+  text-overflow: ellipsis;
+  width: 160px;
+  overflow: hidden;
+  white-space: nowrap;
+  color: darkgray
+}
+
+.follow_text {
+  color: blue;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+pre {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: darkgray;
+  padding-top: 10px;
+}
+
+/* javacript */
+.profile {
+  padding: 10px;
+  font-weight: bold;
+}

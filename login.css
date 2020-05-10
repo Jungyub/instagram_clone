@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.login_container {
+  border: 2px solid lightgray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+img {
+  padding: 60px 0;
+  width: 300px;
+  height: 100%;
+}
+
+.id_item {
+  margin-top: 10px;
+  width: 350px;
+  font-size: 15px;
+  background-color: rgb(250, 248, 248);
+  color: darkgray;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+
+.pw_item {
+  margin-top: 10px;
+  width: 350px;
+  font-size: 15px;
+  background-color: rgb(250, 248, 248);
+  color: darkgray;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+
+.bt_item {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 350px;
+  background-color: rgb(114, 189, 236);
+  color: white;
+  padding: 10px 0;
+  opacity: 0.5;
+}
+
+.forget_pw {
+  font-size: 15px;
+  color: darkblue;
+}
