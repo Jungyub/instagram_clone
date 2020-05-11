@@ -23,11 +23,15 @@ pw_info.addEventListener('keyup', function() {
 });
 
 bt_info.addEventListener('click', function() {
+  id_info.value = '';
+  pw_info.value = '';
   alert('환영합니다!');
 })
 
 pw_info.addEventListener('keypress', function(e) {
   if ((e.keyCode === 13) && (pw_info.value !== "")) {
+    id_info.value = '';
+    pw_info.value = '';
     alert('환영합니다!');
   }
 })
