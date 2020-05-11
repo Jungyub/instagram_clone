@@ -18,6 +18,7 @@ function push() {
     commentContent.appendChild(add_content);
   
     commentsWrap.appendChild(commentContent);
+    inputComment.value = '';
   };
 };
 
